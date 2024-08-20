@@ -8,6 +8,5 @@ class Combo(models.Model):
     quantity = models.PositiveIntegerField(verbose_name="Quantity")
     image = models.ImageField(upload_to='images/', verbose_name="Image")
     products = models.ManyToManyField(Food, related_name='combos', verbose_name="Products")
-
     def __str__(self):
         return self.combo_name

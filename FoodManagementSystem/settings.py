@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'FoodManagementSystem.middleware.LoginRequiredMiddleware',
-]
+]   
 
 ROOT_URLCONF = 'FoodManagementSystem.urls'
 
